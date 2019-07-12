@@ -1,8 +1,19 @@
 {
   "name": "african-countries",
   "version": "1.0.0",
-  "description": "JSON Library of African countries",
-  "main": "index.js",
-  "author": "Odusanya 'Tomi",
+  "description": "JSON Library of countries in Africa and their country codes(ISO Alpha-2 and Alpha-3)",
+  "repository": "github:odusanya/african-countries",
+  "keywords": [
+    "africa",
+    "africa country",
+    "african countries",
+    "african country code",
+    "countries in africa"
+  ],
+  "main": "lib/index.min.js",
+  "author": "Odusanya 'Tomi <odusanya.tomi@gmail.com> (https://github.com/odusanya)",
+  "contributors": [
+    "Odusanya 'Tomi <odusanya.tomi@gmail.com> (https://github.com/odusanya)"
+  ],
   "license": "MIT"
 }

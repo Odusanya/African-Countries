@@ -1,0 +1,552 @@
+{
+  "DZ": {
+    "Country Name": "Algeria",
+    "Calling Code": 213,
+    "Official Language": "Arabic",
+    "Capital": "Algiers",
+    "Currency": "Algerian dinar",
+    "Country Flag": "🇩🇿",
+    "Internet users": 4700000,
+    "Population": 38813722
+  },
+  "AO": {
+    "Country Name": "Angola",
+    "Calling Code": 244,
+    "Official Language": "Portuguese",
+    "Capital": "Luanda",
+    "Currency": "Angolan kwanza",
+    "Country Flag": "🇦🇴",
+    "Internet users": 606700,
+    "Population": 19088106
+  },
+  "BJ": {
+    "Country Name": "Benin",
+    "Calling Code": 229,
+    "Official Language": "French",
+    "Capital": "Porto-Novo",
+    "Currency": "West African CFA franc",
+    "Country Flag": "🇧🇯",
+    "Internet users": 200100,
+    "Population": 10160556
+  },
+  "BW": {
+    "Country Name": "Botswana",
+    "Calling Code": 267,
+    "Official Language": "Setswana",
+    "Capital": "Gaborone",
+    "Currency": "Botswana pula",
+    "Country Flag": "🇧🇼",
+    "Internet users": 120000,
+    "Population": 2155784
+  },
+  "BF": {
+    "Country Name": "Burkina Faso",
+    "Calling Code": 226,
+    "Official Language": "French",
+    "Capital": "Ouagadougou",
+    "Currency": "West African CFA franc",
+    "Country Flag": "🇧🇫",
+    "Internet users": 178100,
+    "Population": 18365123
+  },
+  "BI": {
+    "Country Name": "Burundi",
+    "Calling Code": 257,
+    "Official Language": "Kirundi",
+    "Capital": "Bujumbura",
+    "Currency": "Burundi franc",
+    "Country Flag": "🇧🇮",
+    "Internet users": 157800,
+    "Population": 10395931
+  },
+  "CV": {
+    "Country Name": "Cabo Verde",
+    "Calling Code": 238,
+    "Official Language": "Portuguese",
+    "Capital": "Praia",
+    "Currency": "Cape Verdean escudo",
+    "Country Flag": "🇨🇻",
+    "Internet users": 150000,
+    "Population": 538535
+  },
+  "CM": {
+    "Country Name": "Cameroon",
+    "Calling Code": 237,
+    "Official Language": "Major African languages",
+    "Capital": "Yaoundé",
+    "Currency": "Central African CFA franc",
+    "Country Flag": "🇨🇲",
+    "Internet users": 749600,
+    "Population": 23130708
+  },
+  "CF": {
+    "Country Name": "Central African Republic",
+    "Calling Code": 236,
+    "Official Language": "French",
+    "Capital": "Bangui",
+    "Currency": "Central African CFA franc",
+    "Country Flag": "🇨🇫",
+    "Internet users": 22600,
+    "Population": 5277959
+  },
+  "TD": {
+    "Country Name": "Chad",
+    "Calling Code": 235,
+    "Official Language": "French",
+    "Capital": "N'Djamena",
+    "Currency": "Central African CFA franc",
+    "Country Flag": "🇹🇩",
+    "Internet users": 168100,
+    "Population": 11412107
+  },
+  "KM": {
+    "Country Name": "Comoros",
+    "Calling Code": 269,
+    "Official Language": "Arabic",
+    "Capital": "Moroni",
+    "Currency": "Comorian franc",
+    "Country Flag": "🇰🇲",
+    "Internet users": 24300,
+    "Population": 766865
+  },
+  "CD": {
+    "Country Name": "Democratic Republic of the Congo",
+    "Calling Code": 243,
+    "Official Language": "French",
+    "Capital": "Kinshasa",
+    "Currency": "Congolese franc",
+    "Country Flag": "🇨🇩",
+    "Internet users": 290000,
+    "Population": 77433744
+  },
+  "CG": {
+    "Country Name": "Republic of the Congo",
+    "Calling Code": 242,
+    "Official Language": "French",
+    "Capital": "Brazzaville",
+    "Currency": "Central African CFA franc",
+    "Country Flag": "🇨🇬",
+    "Internet users": 245200,
+    "Population": 4662446
+  },
+  "CI": {
+    "Country Name": "Cote D'Ivoire",
+    "Calling Code": 225,
+    "Official Language": "French",
+    "Capital": "Yamoussoukro",
+    "Currency": "West African CFA franc",
+    "Country Flag": "🇨🇮",
+    "Internet users": 967300,
+    "Population": 22848945
+  },
+  "DJ": {
+    "Country Name": "Djibouti",
+    "Calling Code": 253,
+    "Official Language": "French",
+    "Capital": "Djibouti (city)",
+    "Currency": "Djiboutian franc",
+    "Country Flag": "🇩🇯",
+    "Internet users": 25900,
+    "Population": 810179
+  },
+  "EG": {
+    "Country Name": "Egypt",
+    "Calling Code": 20,
+    "Official Language": "Arabic",
+    "Capital": "Cairo",
+    "Currency": "Egyptian Pound",
+    "Country Flag": "🇪🇬",
+    "Internet users": 20136000,
+    "Population": 86895099
+  },
+  "GQ": {
+    "Country Name": "Equatorial Guinea",
+    "Calling Code": 240,
+    "Official Language": "Spanish",
+    "Capital": "Malabo",
+    "Currency": "Central African CFA franc",
+    "Country Flag": "🇬🇶",
+    "Internet users": 14400,
+    "Population": 722254
+  },
+  "ER": {
+    "Country Name": "Eritrea",
+    "Calling Code": 291,
+    "Official Language": "Afar",
+    "Capital": "Asmara",
+    "Currency": "Eritrean nakfa",
+    "Country Flag": "🇪🇷",
+    "Internet users": 200000,
+    "Population": 6380803
+  },
+  "ET": {
+    "Country Name": "Ethiopia",
+    "Calling Code": 251,
+    "Official Language": "Amharic",
+    "Capital": "Addis Ababa",
+    "Currency": "Ethiopian birr",
+    "Country Flag": "🇪🇹",
+    "Internet users": 447300,
+    "Population": 96633458
+  },
+  "GA": {
+    "Country Name": "Gabon",
+    "Calling Code": 241,
+    "Official Language": "French",
+    "Capital": "Libreville",
+    "Currency": "Central African CFA franc",
+    "Country Flag": "🇬🇦",
+    "Internet users": 98800,
+    "Population": 1672597
+  },
+  "GH": {
+    "Country Name": "Ghana",
+    "Calling Code": 233,
+    "Official Language": "English",
+    "Capital": "Accra",
+    "Currency": "Ghanaian cedi",
+    "Country Flag": "🇬🇭",
+    "Internet users": 1297000,
+    "Population": 25758108
+  },
+  "GM": {
+    "Country Name": "Gambia",
+    "Calling Code": 220,
+    "Official Language": "English",
+    "Capital": "Banjul",
+    "Currency": "Dalasi",
+    "Country Flag": "🇬🇲",
+    "Internet users": null,
+    "Population": 1857181
+  },
+  "GN": {
+    "Country Name": "Guinea",
+    "Calling Code": 224,
+    "Official Language": "French",
+    "Capital": "Conakry",
+    "Currency": "Guinean franc",
+    "Country Flag": "🇬🇳",
+    "Internet users": 95000,
+    "Population": 11474383
+  },
+  "GW": {
+    "Country Name": "Guinea-Bissau",
+    "Calling Code": 245,
+    "Official Language": "Portuguese",
+    "Capital": "Bissau",
+    "Currency": "West African CFA franc",
+    "Country Flag": "🇬🇼",
+    "Internet users": 37100,
+    "Population": 1693398
+  },
+  "KE": {
+    "Country Name": "Kenya",
+    "Calling Code": 254,
+    "Official Language": "English",
+    "Capital": "Nairobi",
+    "Currency": "Kenyan shilling",
+    "Country Flag": "🇰🇪",
+    "Internet users": 3996000,
+    "Population": 45010056
+  },
+  "LS": {
+    "Country Name": "Lesotho",
+    "Calling Code": 266,
+    "Official Language": "Sesotho",
+    "Capital": "Maseru",
+    "Currency": "Lesotho loti",
+    "Country Flag": "🇱🇸",
+    "Internet users": 76800,
+    "Population": 1942008
+  },
+  "LR": {
+    "Country Name": "Liberia",
+    "Calling Code": 231,
+    "Official Language": "English",
+    "Capital": "Monrovia",
+    "Currency": "Liberian Dollar",
+    "Country Flag": "🇱🇷",
+    "Internet users": 20000,
+    "Population": 4092310
+  },
+  "LY": {
+    "Country Name": "Libya",
+    "Calling Code": 218,
+    "Official Language": "Arabic",
+    "Capital": "Tripoli",
+    "Currency": "Libyan dinar",
+    "Country Flag": "🇱🇾",
+    "Internet users": 353900,
+    "Population": 6244174
+  },
+  "MG": {
+    "Country Name": "Madagascar",
+    "Calling Code": 261,
+    "Official Language": "French",
+    "Capital": "Antananarivo",
+    "Currency": "Malagasy ariary",
+    "Country Flag": "🇲🇬",
+    "Internet users": 319900,
+    "Population": 23201926
+  },
+  "MW": {
+    "Country Name": "Malawi",
+    "Calling Code": 265,
+    "Official Language": "Chichewa",
+    "Capital": "Lilongwe",
+    "Currency": "Malawian kwacha",
+    "Country Flag": "🇲🇼",
+    "Internet users": 716400,
+    "Population": 17377468
+  },
+  "ML": {
+    "Country Name": "Mali",
+    "Calling Code": 223,
+    "Official Language": "French",
+    "Capital": "Bamako",
+    "Currency": "West African CFA franc",
+    "Country Flag": "🇲🇱",
+    "Internet users": 249800,
+    "Population": 16455903
+  },
+  "MR": {
+    "Country Name": "Mauritania",
+    "Calling Code": 222,
+    "Official Language": "Arabic",
+    "Capital": "Nouakchott",
+    "Currency": "Mauritanian ouguiya",
+    "Country Flag": "🇲🇷",
+    "Internet users": 75000,
+    "Population": 3516806
+  },
+  "MU": {
+    "Country Name": "Mauritius",
+    "Calling Code": 230,
+    "Official Language": "Creole",
+    "Capital": "Port Louis",
+    "Currency": "Mauritian rupee",
+    "Country Flag": "🇲🇺",
+    "Internet users": 290000,
+    "Population": 1331155
+  },
+  "MA": {
+    "Country Name": "Morocco",
+    "Calling Code": 212,
+    "Official Language": "Arabic",
+    "Capital": "Rabat",
+    "Currency": "Moroccan dirham",
+    "Country Flag": "🇲🇦",
+    "Internet users": 13213000,
+    "Population": 32987206
+  },
+  "MZ": {
+    "Country Name": "Mozambique",
+    "Calling Code": 258,
+    "Official Language": "Emakhuwa",
+    "Capital": "Maputo",
+    "Currency": "Mozambican metical",
+    "Country Flag": "🇲🇿",
+    "Internet users": 613600,
+    "Population": 24692144
+  },
+  "NA": {
+    "Country Name": "Namibia",
+    "Calling Code": 264,
+    "Official Language": null,
+    "Capital": "Windhoek",
+    "Currency": "Namibian Dollar",
+    "Country Flag": "🇳🇦",
+    "Internet users": 127500,
+    "Population": 2198406
+  },
+  "NE": {
+    "Country Name": "Niger",
+    "Calling Code": 227,
+    "Official Language": "French",
+    "Capital": "Niamey",
+    "Currency": "West African CFA franc",
+    "Country Flag": "🇳🇪",
+    "Internet users": 115900,
+    "Population": 17466172
+  },
+  "NG": {
+    "Country Name": "Nigeria",
+    "Calling Code": 234,
+    "Official Language": "English",
+    "Capital": "Abuja",
+    "Currency": "Nigerian naira",
+    "Country Flag": "🇳🇬",
+    "Internet users": 43989000,
+    "Population": 200963599
+  },
+  "RW": {
+    "Country Name": "Rwanda",
+    "Calling Code": 250,
+    "Official Language": "Kinyarwanda",
+    "Capital": "Kigali",
+    "Currency": "Rwandan franc",
+    "Country Flag": "🇷🇼",
+    "Internet users": 450000,
+    "Population": 12337138
+  },
+  "ST": {
+    "Country Name": "Sao Tome And Principe",
+    "Calling Code": 239,
+    "Official Language": "Portuguese",
+    "Capital": "São Tomé",
+    "Currency": "Sao Tome and Principe dobra",
+    "Country Flag": "🇸🇹",
+    "Internet users": 26700,
+    "Population": 190428
+  },
+  "SN": {
+    "Country Name": "Senegal",
+    "Calling Code": 221,
+    "Official Language": "French",
+    "Capital": "Dakar",
+    "Currency": "West African CFA franc",
+    "Country Flag": "🇸🇳",
+    "Internet users": 1818000,
+    "Population": 13635927
+  },
+  "SC": {
+    "Country Name": "Seychelles",
+    "Calling Code": 248,
+    "Official Language": "Creole",
+    "Capital": "Victoria",
+    "Currency": "Seychellois rupee",
+    "Country Flag": "🇸🇨",
+    "Internet users": 32000,
+    "Population": 91650
+  },
+  "SL": {
+    "Country Name": "Sierra Leone",
+    "Calling Code": 232,
+    "Official Language": "English",
+    "Capital": "Freetown",
+    "Currency": "Sierra Leonean leone",
+    "Country Flag": "🇸🇱",
+    "Internet users": 14900,
+    "Population": 5743725
+  },
+  "SO": {
+    "Country Name": "Somalia",
+    "Calling Code": 252,
+    "Official Language": "Somali",
+    "Capital": "Mogadishu",
+    "Currency": "Somali shilling",
+    "Country Flag": "🇸🇴",
+    "Internet users": 106000,
+    "Population": 10428043
+  },
+  "ZA": {
+    "Country Name": "South Africa",
+    "Calling Code": 27,
+    "Official Language": "IsiZulu",
+    "Capital": "Pretoria / Cape Town",
+    "Currency": "South African rand",
+    "Country Flag": "🇿🇦",
+    "Internet users": 4420000,
+    "Population": 48375645
+  },
+  "SS": {
+    "Country Name": "South Sudan",
+    "Calling Code": 211,
+    "Official Language": "Arabic",
+    "Capital": "Juba",
+    "Currency": "South Sudanese Pound",
+    "Country Flag": "🇸🇸",
+    "Internet users": null,
+    "Population": 11562695
+  },
+  "SD": {
+    "Country Name": "Sudan",
+    "Calling Code": 249,
+    "Official Language": "Arabic",
+    "Capital": "Khartoum",
+    "Currency": "Sudanese Pound",
+    "Country Flag": "🇸🇩",
+    "Internet users": 4200000,
+    "Population": 35482233
+  },
+  "SZ": {
+    "Country Name": "Eswatini",
+    "Calling Code": 268,
+    "Official Language": "English",
+    "Capital": "Mbabane",
+    "Currency": "Swazi lilangeni",
+    "Country Flag": "🇸🇿",
+    "Internet users": 90100,
+    "Population": 1419623
+  },
+  "TZ": {
+    "Country Name": "Tanzania",
+    "Calling Code": 255,
+    "Official Language": "Kiswahili or Swahili",
+    "Capital": "Dodoma",
+    "Currency": "Tanzanian shilling",
+    "Country Flag": "🇹🇿",
+    "Internet users": 678000,
+    "Population": 49639138
+  },
+  "TG": {
+    "Country Name": "Togo",
+    "Calling Code": 228,
+    "Official Language": "French",
+    "Capital": "Lomé",
+    "Currency": "West African CFA franc",
+    "Country Flag": "🇹🇬",
+    "Internet users": 356300,
+    "Population": 7351374
+  },
+  "TN": {
+    "Country Name": "Tunisia",
+    "Calling Code": 216,
+    "Official Language": "Arabic",
+    "Capital": "Tunis",
+    "Currency": "Tunisian dinar",
+    "Country Flag": "🇹🇳",
+    "Internet users": 3500000,
+    "Population": 10937521
+  },
+  "UG": {
+    "Country Name": "Uganda",
+    "Calling Code": 256,
+    "Official Language": "English",
+    "Capital": "Kampala",
+    "Currency": "Ugandan shilling",
+    "Country Flag": "🇺🇬",
+    "Internet users": 3200000,
+    "Population": 35918915
+  },
+  "EH": {
+    "Country Name": "Western Sahara",
+    "Calling Code": null,
+    "Official Language": "Hassaniya Arabic",
+    "Capital": null,
+    "Currency": null,
+    "Country Flag": "",
+    "Internet users": null,
+    "Population": 554795
+  },
+  "ZM": {
+    "Country Name": "Zambia",
+    "Calling Code": 260,
+    "Official Language": "English",
+    "Capital": "Lusaka",
+    "Currency": "Zambian kwacha",
+    "Country Flag": "🇿🇲",
+    "Internet users": 816200,
+    "Population": 14638505
+  },
+  "ZW": {
+    "Country Name": "Zimbabwe",
+    "Calling Code": 263,
+    "Official Language": "English",
+    "Capital": "Harare",
+    "Currency": "United States Dollar",
+    "Country Flag": "🇿🇼",
+    "Internet users": 1423000,
+    "Population": 13771721
+  }
+}

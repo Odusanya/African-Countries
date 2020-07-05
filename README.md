@@ -13,6 +13,8 @@ Each country object also returns the following:
 - Internet users
 - Population
 
+[![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://github.com/standard/standard)
+
 ## Installation
 
 1. Via npm: `npm install @odusanya/african-countries`

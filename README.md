@@ -37,15 +37,15 @@ A sample country object looks like this
 
 ```json
   {
-    Code: 'ML',
+    'Code': 'ML',
     'Country Name': 'Mali',
     'Calling Code': 223,
     'Official Language': 'French',
-    Capital: 'Bamako',
-    Currency: 'West African CFA franc',
+    'Capital': 'Bamako',
+    'Currency': 'West African CFA franc',
     'Country Flag': '🇲🇱',
     'Internet users': 249800,
-    Population: 16455903
+    'Population': 16455903
   }
 ```
 

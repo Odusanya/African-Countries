@@ -35,7 +35,7 @@ var countries = require('@odusanya/african-countries');
 
 A sample country object looks like this
 
-```json
+```js
   {
     'Code': 'ML',
     'Country Name': 'Mali',

@@ -130,3 +130,6 @@ MIT
 ### Contribution
 
 Feel free to send a PR to fix, update or add new entry anytime.
+
+### Roadmap
+- Visa requirements

@@ -12,13 +12,13 @@
     "countries in africa"
   ],
   "type": "module",
-  "main": "./dist/african-countries.umd.cjs",
-  "module": "./dist/african-countries.js",
-  "types": "./dist/index.d.ts",
+  "main": "./dist/main.umd.cjs",
+  "module": "./dist/main.js",
+  "types": "./dist/main.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/african-countries.js",
-      "require": "./dist/african-countries.umd.cjs"
+      "import": "./dist/main.js",
+      "require": "./dist/main.umd.cjs"
     }
   },
   "author": "Odusanya Tomi <https://github.com/odusanya>",
@@ -26,7 +26,9 @@
     "Odusanya Tomi <https://github.com/odusanya>"
   ],
   "devDependencies": {
+    "@types/node": "^20.9.0",
     "standard": "^14.3.4",
+    "typescript": "^5.2.2",
     "vite": "^4.5.0",
     "vite-plugin-dts": "^3.6.3",
     "vitest": "^0.34.6"

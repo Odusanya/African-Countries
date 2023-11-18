@@ -1,8 +1,9 @@
 {
   "name": "@odusanya/african-countries",
-  "version": "2.2.1",
+  "version": "3.0.0-rc.1",
   "description": "JSON Library of countries in Africa and their country codes(ISO Alpha-2 and Alpha-3)",
   "repository": "github:odusanya/african-countries",
+  "license": "MIT",
   "keywords": [
     "africa",
     "africa country",
@@ -10,16 +11,36 @@
     "african country code",
     "countries in africa"
   ],
-  "main": "lib/index.min.js",
-  "author": "Odusanya 'Tomi <odusanya.tomi@gmail.com> (https://github.com/odusanya)",
-  "contributors": [
-    "Odusanya 'Tomi <odusanya.tomi@gmail.com> (https://github.com/odusanya)"
-  ],
-  "license": "MIT",
-  "devDependencies": {
-    "standard": "^14.3.4"
+  "type": "module",
+  "main": "./lib/main.cjs",
+  "module": "./lib/main.js",
+  "types": "./lib/main.d.ts",
+  "exports": {
+    ".": {
+      "import": "./lib/main.js",
+      "require": "./lib/main.cjs"
+    }
   },
+  "author": "Odusanya Tomi <https://github.com/odusanya>",
+  "contributors": [
+    "Odusanya Tomi <https://github.com/odusanya>"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "standard": "^14.3.4",
+    "typescript": "^5.2.2",
+    "vite": "^4.5.0",
+    "vite-plugin-dts": "^3.6.3",
+    "vitest": "^0.34.6"
+  },
+  "files": [
+    "lib"
+  ],
   "scripts": {
-    "lint": "standard --fix"
+    "dev": "vite",
+    "build": "rm -rf dist && tsc && vite build",
+    "preview": "vite preview",
+    "lint": "standard --fix",
+    "test": "vitest"
   }
 }

@@ -54,9 +54,11 @@ typings/
 # dotenv environment variables file
 .env
 
-# gatsby files
+# files
 .cache/
 public
+dist
+lib
 
 # Mac files
 .DS_Store

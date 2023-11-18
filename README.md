@@ -1,8 +1,8 @@
-# African Countries ![NPM](https://img.shields.io/npm/l/@odusanya/african-countries.svg?style=popout) ![GitHub package.json version](https://img.shields.io/github/package-json/v/odusanya/African-countries.svg)
+# African Countries Data ![NPM](https://img.shields.io/npm/l/@odusanya/african-countries.svg?style=popout) ![GitHub package.json version](https://img.shields.io/github/package-json/v/odusanya/African-countries.svg)
 
-A lightweight JSON repository of all the 54 WHO recognised countries in Africa. 
+This is a lightweight JSON repository of all the 54 WHO recognised countries in Africa.
 
-Each country object also returns the following:
+Each country object contains the following details:
 - Country Code
 - Country Name
 - Calling Code
@@ -17,11 +17,21 @@ Each country object also returns the following:
 
 ## Installation
 
-1. Via npm: `npm install @odusanya/african-countries`
+You can install this package via npm or yarn:
 
-2. Via yarn: `yarn add @odusanya/african-countries`
+1. Via npm: 
+
+``` js
+npm install @odusanya/african-countries
+```
+
+2. Via yarn:
+``` js
+yarn add @odusanya/african-countries
+```
 
 ## Usage
+You can import the package in your JavaScript file like this:
 
 ``` js
 // ES6
@@ -31,102 +41,48 @@ import countries from '@odusanya/african-countries';
 var countries = require('@odusanya/african-countries');
 ```
 
-### More Info
+The package provides the following functions:
+
+- getAllCountries(): Returns an array of all the countries in Africa.
+- getCountryByCode(code): Returns the country object for the given country code.
+- searchCountryByName(name): Returns an array of countries that match the given name.
 
 A sample country object looks like this
 
-```js
-  {
-    'Code': 'ML',
-    'Country Name': 'Mali',
-    'Calling Code': 223,
-    'Official Language': 'French',
-    'Capital': 'Bamako',
-    'Currency': 'West African CFA franc',
-    'Country Flag': '🇲🇱',
-    'Internet users': 249800,
-    'Population': 16455903
-  }
-```
+Examples
 
-### Common Use cases
+Here are some examples of how you can use these functions:
 
-`const { listCountries, getCountryFromCode } = countries;`
-
-1. Get country info using country code
-
+1. Get all countries:
 ``` js
-console.log(getCountryFromCode('ml')); 
-
-// Output
-{
-  'Code': 'ML',
-  'Country Name': 'Mali',
-  'Calling Code': 223,
-  'Official Language': 'French',
-  'Capital': 'Bamako',
-  'Currency': 'West African CFA franc',
-  'Country Flag': '🇲🇱',
-  'Internet users': 249800,
-  'Population': 16455903
-}
+const allCountries = countries.getAllCountries();
+console.log(allCountries.length); // 54 
+console.log(allCountries); 
 ```
 
-
-2. Get an array of all the countries in Africa
-
-```js
-const countriesData = listCountries();
-console.log(countriesData.length); // 54 
-console.log(countriesData); 
-// Output
-[
-  ...
-    {
-    Code: 'GM',
-    'Country Name': 'Gambia',
-    'Calling Code': 220,
-    'Official Language': 'English',
-    Capital: 'Banjul',
-    Currency: 'Dalasi',
-    'Country Flag': '🇬🇲',
-    'Internet users': null,
-    Population: 1857181
-  },
-  {
-    Code: 'GN',
-    'Country Name': 'Guinea',
-    'Calling Code': 224,
-    'Official Language': 'French',
-    Capital: 'Conakry',
-    Currency: 'Guinean franc',
-    'Country Flag': '🇬🇳',
-    'Internet users': 95000,
-    Population: 11474383
-  },
-  {
-    Code: 'GW',
-    'Country Name': 'Guinea-Bissau',
-    'Calling Code': 245,
-    'Official Language': 'Portuguese',
-    Capital: 'Bissau',
-    Currency: 'West African CFA franc',
-    'Country Flag': '🇬🇼',
-    'Internet users': 37100,
-    Population: 1693398
-  }
-  ...
-]
+2. Get country by code:
+``` js
+const country = countries.getCountryByCode('ml');
+console.log(country);
 ```
 
-## License
+3. Search country by name:
+``` js
+const countries = countries.searchCountryByName('Gambia');
+console.log(countries); 
+```
 
-MIT
+### License
 
-## Source
- - [ISO (International Organization for Standardization)](https://www.iso.org/iso-3166-country-codes.html)
->ISO makes the list of alpha-2 country codes available for internal use and non-commercial purposes free of charge.
+This package is licensed under the MIT license.
+Source
+
+The country data is sourced from the [ISO (International Organization for Standardization)](https://www.iso.org/iso-3166-country-codes.html).
 
 ### Contribution
 
-Feel free to send a PR to fix, update or add new entry anytime.
+Contributions are welcome! Feel free to send a PR to fix, update or add new entry anytime.
+
+### Roadmap
+
+Future updates may include visa requirements for each country.

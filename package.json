@@ -1,6 +1,6 @@
 {
   "name": "@odusanya/african-countries",
-  "version": "3.0.0-rc.1",
+  "version": "3.0.0-rc.2",
   "description": "JSON Library of countries in Africa and their country codes(ISO Alpha-2 and Alpha-3)",
   "repository": "github:odusanya/african-countries",
   "license": "MIT",

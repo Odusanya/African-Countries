@@ -27,11 +27,12 @@ function getCountryByCode(countryCode: string, countryProps?: CountryKeys[]): Pa
   }
 
   // If parameters are provided, return only the specified keys
-  const result: Partial<Country> = countryProps?.reduce((acc: Partial<Country>, currentParam: any) => {
+  const result: Partial<Country> = countryProps?.reduce((acc: Partial<Country>, currentParam: keyof Country | {}) => {
+    const key = currentParam as keyof Country;
       // Add the current parameter to the accumulator object
       return {
         ...acc,
-        [currentParam]: country[currentParam as keyof Country]
+        [key]: country[key]
       }
   }, { name: country.name }) // Start with an object that only contains the country's name
 

@@ -26,10 +26,11 @@ function searchCountryByName(searchParam: string, countryProps?: string[]): Part
   if (countryProps) {
     return filteredCountries.map(country => {
       // Reduce the country object to only the specified keys.
-      return countryProps?.reduce((acc: Partial<Country>, currentParam: any) => {
+      return countryProps?.reduce((acc: Partial<Country>, currentParam: keyof Country | {}) => {
+        const key = currentParam as keyof Country;
         return {
           ...acc,
-          [currentParam]: country[currentParam as keyof Country]
+          [key]: country[key]
         }
       }, { name: country.name })
     });

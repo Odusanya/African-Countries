@@ -1,5 +1,4 @@
-import fs from 'fs';
-import path from 'path';
+import rawCountriesData from './../../data/countries.json?raw';
 
 export interface Country {
   capitalCity: string;
@@ -17,9 +16,7 @@ export interface Country {
 
 export type CountryCode = keyof typeof countries;
 
-const data = fs.readFileSync(path.resolve(process.cwd(), './data/countries.json'), 'utf-8');
-const countries: Country[] = JSON.parse(data);
-
+const countries: Country[] = JSON.parse(rawCountriesData);
 
 export {
   countries

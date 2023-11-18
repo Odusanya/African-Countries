@@ -1,27 +1,41 @@
 import { countries } from './utils/getCountriesData';
 import type { Country, CountryCode } from './utils/getCountriesData';
 
+/**
+ * Function to search for a country by name or alternative spellings.
+ * @param {string} countryCode - The IS04 country code, for the country you're looking for, e.g. GH, NG.
+ * @param {string[]} countryProps - Specific keys of the country object to return, 
+ * @returns {Partial<Country>[] | string} - An array of partial country objects or a string message if no country is found.
+ */
+
+// Define a type for the keys of the Country object
 type CountryKeys = keyof Country[];
 
-const getCountryByCode = (countryCode: string, params?: CountryKeys[]): Partial<Country> => {
+// Function to get a country by its code
+function getCountryByCode(countryCode: string, countryProps?: CountryKeys[]): Partial<Country> | string {
+  // Convert the country code to uppercase and get the country from the countries object
   const country = countries[countryCode.toUpperCase() as CountryCode] as Partial<Country> | undefined;
 
+  // If the country is not found, return a message
   if (!country) {
-    throw new Error(`Country not found for code: ${countryCode}`);
+    return `Country not found for code: ${countryCode}`;
   }
 
-  if (!params) {
+  // If no parameters are provided, return the whole country object
+  if (!countryProps) {
     return country;
   }
 
-  const result: Partial<Country> = params
-    .reduce((acc: Partial<Country>, currentParam: any) => {
+  // If parameters are provided, return only the specified keys
+  const result: Partial<Country> = countryProps?.reduce((acc: Partial<Country>, currentParam: any) => {
+      // Add the current parameter to the accumulator object
       return {
         ...acc,
         [currentParam]: country[currentParam as keyof Country]
       }
-  }, { name: country.name })
+  }, { name: country.name }) // Start with an object that only contains the country's name
 
+  // Return the result
   return result;
 }
 

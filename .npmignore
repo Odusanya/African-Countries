@@ -3,4 +3,13 @@ node_modules
 .idea
 .travis.yml
 test
+vite.config.ts
 examples
+data
+src
+.eslintrc.json
+LICENSE
+package.json
+*-lock.yaml
+tsconfig.json
+vite.config.js

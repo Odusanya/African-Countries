@@ -59,6 +59,7 @@ typings/
 public
 dist
 lib
+.npmrc
 
 # Mac files
 .DS_Store

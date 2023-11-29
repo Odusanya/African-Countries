@@ -18,14 +18,19 @@ jobs:
         with:
           node-version: '16'
           registry-url: 'https://registry.npmjs.org'
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Install pnpm
+        run: npm install -g pnpm
 
       - name: Install dependencies and run tests
         run: |
-          npm install
-          npm test
+          pnpm install
+          pnpm test
 
       - name: Build library
-        run: npm run build
+        run: pnpm build
 
       - name: Publish to npm
         run: npm publish

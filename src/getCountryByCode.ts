@@ -5,11 +5,11 @@ import type { Country, CountryCode } from './utils/getCountriesData';
  * Function to search for a country by name or alternative spellings.
  * @param {string} countryCode - The IS04 country code, for the country you're looking for, e.g. GH, NG.
  * @param {string[]} countryProps - Specific keys of the country object to return, 
- * @returns {Partial<Country>[] | string} - An array of partial country objects or a string message if no country is found.
+ * @returns {Partial<Country> | string} - An array of partial country objects or a string message if no country is found.
  */
 
 // Define a type for the keys of the Country object
-type CountryKeys = keyof Country[];
+type CountryKeys = keyof Country;
 
 // Function to get a country by its code
 function getCountryByCode(countryCode: string, countryProps?: CountryKeys[]): Partial<Country> | string {

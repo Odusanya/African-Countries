@@ -8,10 +8,12 @@ type CountryKeys = (keyof Country)[];
  * @param {CountryKeys} countryKeys - An array of specific keys of the country object to return, optional. e.g ['name', 'population', etc]
  * @returns {Country[]} - An array of country objects with specified keys or all country objects.
  */
+
 function getAllCountries(countryKeys?: CountryKeys): Country[] {
+  const countriesArray = Object.values(countries)
   // If specific parameters are provided, return only the specified keys for all countries
   if (countryKeys && countryKeys.length > 0) {
-    return countries.map(country => {
+    return countriesArray.map(country => {
       const newCountry: Partial<Country> = {};
       // Iterate through each parameter and add it to the new country object
       countryKeys.forEach((param) => {
@@ -23,7 +25,7 @@ function getAllCountries(countryKeys?: CountryKeys): Country[] {
     });
   }
   // If no specific parameters are provided, return all countries
-  return Object.values(countries);
+  return countriesArray;
 }
 
 export default getAllCountries;

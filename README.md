@@ -85,4 +85,4 @@ Contributions are welcome! Feel free to send a PR to fix, update or add new entr
 
 ### Roadmap
 
-Future updates may include visa requirements for each country.
+Future updates may include visa requirements for each country and automatic project documentation.

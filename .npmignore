@@ -13,3 +13,4 @@ package.json
 *-lock.yaml
 tsconfig.json
 vite.config.js
+.npmrc

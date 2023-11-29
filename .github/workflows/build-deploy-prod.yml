@@ -14,25 +14,29 @@ jobs:
     
     steps:
       - name: Check out code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Set up Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
         with:
           node-version: '16'
           registry-url: 'https://registry.npmjs.org'
+          cache: 'pnpm'
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Install pnpm
+        run: npm install -g pnpm
+
       - name: Install dependencies and run tests
         run: |
-          npm install
-          npm test
+          pnpm install
+          pnpm test
 
       - name: Build library
-        run: npm run build
+        run: pnpm build
 
-      - name: Publish to NPM
+      - name: Publish to npm
         run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

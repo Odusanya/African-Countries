@@ -1,6 +1,9 @@
 name: Publish npm package
 
 on:
+  push:
+    branches:
+      - master
   pull_request:
     branches:
       - master
@@ -21,18 +24,15 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Install pnpm
-        run: npm install -g pnpm
-
       - name: Install dependencies and run tests
         run: |
-          pnpm install
-          pnpm test
+          npm install
+          npm test
 
       - name: Build library
-        run: pnpm build
+        run: npm run build
 
-      - name: Publish to npm
+      - name: Publish to NPM
         run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

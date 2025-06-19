@@ -3,7 +3,7 @@ name: Publish npm package
 on:
   pull_request:
     branches:
-      - main
+      - master
 
 jobs:
   build-and-publish:

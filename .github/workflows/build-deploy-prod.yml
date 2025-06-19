@@ -18,6 +18,8 @@ jobs:
         with:
           node-version: '16'
           registry-url: 'https://registry.npmjs.org'
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Install pnpm
         run: npm install -g pnpm
